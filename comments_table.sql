@@ -2,7 +2,7 @@
 CREATE TABLE posts (
   id SERIAL PRIMARY KEY,
   name text,
-  content date
+  content text
 );
 
 -- Then the table with the foreign key first.
